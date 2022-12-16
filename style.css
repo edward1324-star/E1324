@@ -1,0 +1,119 @@
+* {
+    margin:  0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 15, 83);
+}
+.card {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    height: 600px;
+}
+.banner img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+}
+.content h1 {
+    font-size: 25px;
+    color: rgb(45, 45, 45);
+    font-weight: 600;
+}
+.content p {
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgb(136, 136, 136);
+    line-height: 1.6;
+}
+.payment {
+    background-color: rgba(231, 234, 255, 0.518);
+    width: 80%;
+    margin: 30px auto 11px auto;
+    border-radius: 10px;
+}
+.payment span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.payment span .pay-img {
+    width: 20%;
+}
+.payment span .pay-content { 
+    text-align: center;
+    width: 60%;
+}
+.payment span .pay-link {
+    width: 20%;
+}
+.payment span img {
+    width: 100%;
+}
+.payment span h2 {
+    font-weight: 500;
+    padding-bottom: 3px;
+    font-size: 20px;
+    color: rgb(15, 0, 112);
+}
+.payment span small {
+    font-size: 14px;
+    color: rgb(62, 62, 62);
+    font-weight: 600;
+}
+.payment span a {
+    width: 20%;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 0, 129);
+    color: rgb(0, 0, 81);
+}
+.payment span a:hover {
+    border: none;
+}
+.payment-button {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.payment-button a {
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 12px 35px;
+    background-color: rgb(118, 118, 255);
+    text-decoration: none;
+}
+.cancel-button {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.cancel-button a {
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.cancel-button a:hover {
+    color: rgb(55, 25, 255);
+}
